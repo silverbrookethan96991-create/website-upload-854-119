@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://vercelcn.com/ads-widget.js"></script>
+    <title>影片搜索 - 欧美热门片库</title>
+    <meta name="description" content="按影片标题、题材、年份、地区搜索片库内容。">
+    <meta name="keywords" content="最新欧美影片,欧美影片,热门影片,影片片库,内容更新,高清影片,精选欧美影片,影片合集,影片搜索">
+    <link rel="stylesheet" href="./assets/css/site.css">
+</head>
+<body>
+<header class="site-header">
+    <nav class="nav-shell">
+        <a class="brand" href="./index.html" aria-label="欧美热门片库">
+            <span class="brand-mark">影</span>
+            <span class="brand-text">欧美热门片库</span>
+        </a>
+        <div class="desktop-nav">
+            <a class="nav-link" href="./index.html">首页</a>
+            <a class="nav-link" href="./categories.html">分类</a>
+            <a class="nav-link" href="./ranking.html">排行榜</a>
+            <a class="nav-link is-active" href="./search.html">搜索</a>
+            <a class="nav-link" href="./category-latest-euro-america.html">最新欧美</a>
+            <a class="nav-link" href="./category-hot-library.html">热门片库</a>
+            <a class="nav-link" href="./category-suspense-crime.html">悬疑犯罪</a>
+            <a class="nav-link" href="./category-action-adventure.html">动作冒险</a>
+        </div>
+        <button class="menu-toggle" type="button" aria-label="打开菜单" data-menu-toggle>
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </nav>
+    <div class="mobile-nav" data-mobile-nav>
+        <a class="mobile-nav-link" href="./index.html">首页</a>
+        <a class="mobile-nav-link" href="./categories.html">分类</a>
+        <a class="mobile-nav-link" href="./ranking.html">排行榜</a>
+        <a class="mobile-nav-link is-active" href="./search.html">搜索</a>
+        <a class="mobile-nav-link" href="./category-latest-euro-america.html">最新欧美</a>
+        <a class="mobile-nav-link" href="./category-hot-library.html">热门片库</a>
+        <a class="mobile-nav-link" href="./category-suspense-crime.html">悬疑犯罪</a>
+        <a class="mobile-nav-link" href="./category-action-adventure.html">动作冒险</a>
+        <a class="mobile-nav-link" href="./category-drama-family.html">剧情家庭</a>
+        <a class="mobile-nav-link" href="./category-romance-youth.html">爱情青春</a>
+        <a class="mobile-nav-link" href="./category-fantasy-sci-fi.html">奇幻科幻</a>
+        <a class="mobile-nav-link" href="./category-animation-variety.html">动漫综艺</a>
+    </div>
+</header>
+<main>
+<section class="sub-hero search-hero">
+    <div>
+        <span>Search</span>
+        <h1>影片搜索</h1>
+        <p>输入影片名称、标签、年份或地区，快速定位想看的内容。</p>
+    </div>
+</section>
+<section class="section-wrap">
+    <form class="search-panel" data-search-form>
+        <input type="search" name="q" placeholder="搜索影片、题材、年份、地区" autocomplete="off" data-search-input>
+        <button class="btn primary" type="submit">搜索</button>
+    </form>
+    <div class="search-results" data-search-results></div>
+</section>
+</main>
+<footer class="site-footer">
+    <div class="footer-grid">
+        <div class="footer-main">
+            <a class="footer-brand" href="./index.html">
+                <span class="brand-mark">影</span>
+                <span>欧美热门片库</span>
+            </a>
+            <p>整理最新欧美影片与热门片库内容，按年份、题材和热度组织页面。</p>
+        </div>
+        <div>
+            <h2>快捷入口</h2>
+            <ul>
+                <li><a href="./index.html">首页</a></li>
+                <li><a href="./categories.html">分类总览</a></li>
+                <li><a href="./ranking.html">热门排行</a></li>
+                <li><a href="./search.html">影片搜索</a></li>
+            </ul>
+        </div>
+        <div>
+            <h2>影片分类</h2>
+            <ul>
+                <li><a href="./category-latest-euro-america.html">最新欧美</a></li>
+                <li><a href="./category-hot-library.html">热门片库</a></li>
+                <li><a href="./category-suspense-crime.html">悬疑犯罪</a></li>
+                <li><a href="./category-action-adventure.html">动作冒险</a></li>
+                <li><a href="./category-drama-family.html">剧情家庭</a></li>
+                <li><a href="./category-romance-youth.html">爱情青春</a></li>
+                <li><a href="./category-fantasy-sci-fi.html">奇幻科幻</a></li>
+                <li><a href="./category-animation-variety.html">动漫综艺</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer-bottom">© 2026 欧美热门片库. All rights reserved.</div>
+</footer>
+<script src="./assets/js/site.js"></script>
+<script src="./assets/js/search-data.js"></script>
+<script src="./assets/js/search.js"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+    var hm = document.createElement("script");
+    hm.src = "https://hm.baidu.com/hm.js?76b5e2e0f6c84c06f0a7cb7105df054d";
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>

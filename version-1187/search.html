@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://vercelcn.com/ads-widget.js"></script>
+  <title>搜索影片-热门欧美影片-高分影片排行榜-高清影片在线观看</title>
+  <meta name="description" content="搜索热门欧美影片、高分影片、高清影片和精选电影片库内容。">
+  <meta name="keywords" content="热门欧美影片,欧美影片,高分影片,影片排行榜,高清影片,在线观看,精选影片,电影片库,搜索">
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+<script src="./assets/js/site.js"></script>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="logo" href="./index.html" aria-label="欧美高分片库">
+      <span class="logo-icon">◆</span>
+      <span>欧美高分片库</span>
+    </a>
+    <button class="menu-button" type="button" aria-label="打开导航" data-menu-button>☰</button>
+    <nav class="site-nav" data-site-nav>
+      <a href="./index.html">首页</a>
+      <a href="./categories.html">分类</a>
+      <a href="./ranking.html">排行榜</a>
+      <form class="nav-search" action="./search.html" method="get">
+        <input type="search" name="q" placeholder="搜索影片" aria-label="搜索影片">
+        <button type="submit">搜索</button>
+      </form>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="page-hero">
+    <div class="container">
+      <h1>搜索影片</h1>
+      <p>按片名、地区、年份、类型或关键词快速查找内容。</p>
+    </div>
+  </section>
+  <section class="container section-block">
+    <form class="search-page-form" action="./search.html" method="get">
+      <input type="search" name="q" data-search-page-input placeholder="输入关键词" aria-label="输入关键词">
+      <button type="submit">搜索</button>
+    </form>
+    <div class="movie-grid" data-search-results></div>
+    <div class="empty-state" data-search-empty>请输入关键词开始搜索。</div>
+  </section>
+</main>
+<script src="./assets/js/search-index.js"></script>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <a class="footer-logo" href="./index.html">欧美高分片库</a>
+      <p>围绕热门欧美影片和高分榜单进行整理，便于按口碑与热度筛选影片。</p>
+    </div>
+    <div>
+      <h2>快速浏览</h2>
+      <div class="footer-links">
+        <a href="./index.html">首页</a>
+        <a href="./categories.html">分类</a>
+        <a href="./ranking.html">排行榜</a>
+      </div>
+    </div>
+    <div>
+      <h2>精选分类</h2>
+      <div class="footer-links"><a href="./hot-europe.html">热门欧美精选</a><a href="./high-score.html">高分影片榜</a><a href="./crime-action.html">犯罪动作</a><a href="./suspense-thriller.html">悬疑惊悚</a><a href="./romance-drama.html">爱情剧情</a><a href="./fantasy-adventure.html">奇幻冒险</a></div>
+    </div>
+  </div>
+  <div class="footer-bottom">© 2026 欧美高分片库</div>
+</footer>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?76b5e2e0f6c84c06f0a7cb7105df054d";
+  var s = document.getElementsByTagName("script")[0];
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
